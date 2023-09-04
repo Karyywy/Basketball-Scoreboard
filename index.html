@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        
+        <div class="container">
+             <div class="column">
+                <h3 class="header">HOME</h3>
+                <h2 id="homescore">0</h2>
+                <div>
+                    <button onclick= "homeadd1()">+1</button>
+                    <button onclick= "homeadd2()">+2</button>
+                    <button onclick= "homeadd3()">+3</button>
+                </div>
+                <div>
+                    <button onclick="resethome()">Reset</button>
+                </div>
+             </div>
+        
+            <div class="column">
+                <h3 class="header">GUEST</h3>
+                 <h2 id="guestscore">0</h2>
+                <div>      
+                    <button onclick= "guestAdd1()">+1</button>
+                    <button onclick="guestAdd2()">+2</button>
+                    <button onclick= "guestAdd3()">+3</button>
+                </div>
+                <div>
+                    <button onclick="resetguest()">Reset</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    background:#1B244A;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.header{
+    font-size: 50px;
+    color: #FFFAFA;
+    margin: 5px;
+}
+
+#homescore, #guestscore{
+    background-color: #0a0001;
+    font-size: 100px;
+    color: #F94F6D;
+    width: 130px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background: none;
+    color: #FFFAFA;
+    border: 1px solid #FFFAFA;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px;
+}
+
